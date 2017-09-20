@@ -25,6 +25,7 @@ We should have the following file structure:
  * hosts
 
  [roles]
+      
       - [apache2]
         
       - [php7]
