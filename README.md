@@ -21,14 +21,14 @@ Prerequisites:
 We should have the following file structure:
 
 [.]
-|_ playbook.yml
-|_ hosts
-|_ [roles]
-      |_ [apache2]
-            |_ ...
-      |_ [php7]
-            |_ ...
-      |_ [mysql]
-            |_ ...
-      |_ [wordpress]
-            |_ ...      
+ * playbook.yml
+ * hosts
+ * [roles]
+      -> [apache2]
+        
+      -> [php7]
+          
+      -> [mysql]
+          
+      -> [wordpress]
+                
