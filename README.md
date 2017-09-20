@@ -22,9 +22,9 @@ We should have the following file structure:
 
 [ansible-wordpress]
  
- - playbook.yml
+ - [playbook.yml]
  
- - hosts
+ - [hosts]
 
  [roles]
       
