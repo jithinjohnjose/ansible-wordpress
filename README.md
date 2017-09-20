@@ -23,7 +23,8 @@ We should have the following file structure:
 [ansible-wordpress]
  * playbook.yml
  * hosts
-[roles]
+
+ [roles]
       - [apache2]
         
       - [php7]
