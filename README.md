@@ -35,4 +35,17 @@ We should have the following file structure:
       - [mysql]
           
       - [wordpress]
+     
+Inventory (hosts file):
+
+An Ansible inventory informs Ansible about what servers we have that we want to install WordPress on. We can run our playbooks for the servers or groups of servers defined in our inventory file (hosts). Our inventory is very simple.
+
+Edit hosts:
+nano ~/wordpress-ansible/hosts
+
+Add the line for [wordpress], and below it, the IP address of your wordpress-server:
+
+[wordpress]
+wordpress_server_ip 
+
                 
