@@ -20,7 +20,7 @@ Prerequisites:
 
 We should have the following file structure:
 
-[.]
+[ansible-wordpress]
  * playbook.yml
  * hosts
  * [roles]
