@@ -46,6 +46,7 @@ nano ~/wordpress-ansible/hosts
 Add the line for [wordpress], and below it, the IP address of your wordpress-server:
 
 [wordpress]
+
 wordpress_server_ip 
 
                 
