@@ -24,6 +24,7 @@ We should have the following file structure:
  * playbook.yml
  * hosts
  * [roles]
+      
       -> [apache2]
         
       -> [php7]
