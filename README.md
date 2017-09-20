@@ -25,11 +25,11 @@ We should have the following file structure:
  * hosts
  * [roles]
       
-      -> [apache2]
+      - [apache2]
         
-      -> [php7]
+      - [php7]
           
-      -> [mysql]
+      - [mysql]
           
-      -> [wordpress]
+      - [wordpress]
                 
