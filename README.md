@@ -24,11 +24,8 @@ Prerequisites:
 nano ~/ansible-wordpress/hosts
 
 [wordpress]
-
 wordpress_server_ip 
 
 [wordpress:vars]
-
 ansible_ssh_user=root
-
 ansible_python_interpreter=/usr/bin/python                
