@@ -35,7 +35,7 @@ ansible_ssh_user=root
 ansible_python_interpreter=/usr/bin/python  
 
 
-2)Add mysql password, wordpress user, wordpress db name and wordpress password in 
+2)Add mysql password, wordpress db user, wordpress db name and wordpress db password in 
 
 nano ~/ansible-wordpress/roles/mysql/defaults/main.yml
 
@@ -49,7 +49,7 @@ wp_db_password: wordpress
 wp_db_name: wordpress
 
 
-3)Again add wordpress user, wordpress db name and wordpress password in
+3)Again add wordpress db user, wordpress db name and wordpress db password in
 
 nano ~/ansible-wordpress/roles/wordpress/defaults/main.yml
 
