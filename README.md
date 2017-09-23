@@ -18,35 +18,17 @@ Prerequisites:
 
 4) Add the SSH key of your build-server sudo user to your wordpress-server's sudo user's authorized_keys. You can set this up by following this tutorial. You should run the tutorial from your build-server and upload the key to your wordpress-server
 
-We should have the following file structure:
+" Things to done before installation"
 
-[ansible-wordpress]
- 
- - playbook.yml
- 
- - hosts
-
- [roles]
-      
-      - [apache2]
-        
-      - [php7]
-          
-      - [mysql]
-          
-      - [wordpress]
-     
-Inventory (hosts file):
-
-An Ansible inventory informs Ansible about what servers we have that we want to install WordPress on. We can run our playbooks for the servers or groups of servers defined in our inventory file (hosts). Our inventory is very simple.
-
-Edit hosts:
-nano ~/wordpress-ansible/hosts
-
-Add the line for [wordpress], and below it, the IP address of your wordpress-server:
+1) Edit hosts:
+nano ~/ansible-wordpress/hosts
 
 [wordpress]
 
 wordpress_server_ip 
 
-                
+[wordpress:vars]
+
+ansible_ssh_user=root
+
+ansible_python_interpreter=/usr/bin/python                
