@@ -39,6 +39,7 @@ ansible_python_interpreter=/usr/bin/python
 nano ~/ansible-wordpress/roles/mysql/defaults/main.yml
 
 ---
+
 mysql_root_password: your mysql password
 
 wp_db_user: wordpress
