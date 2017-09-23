@@ -60,6 +60,6 @@ wp_db_password: wordpress
 
 wp_db_name: wordpress
 
-4) Run the playbook to install and configure WordPress:
+4)Run the playbook to install and configure WordPress:
 
 ansible-playbook playbook.yml -i hosts
