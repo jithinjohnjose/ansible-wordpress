@@ -18,7 +18,7 @@ Prerequisites:
 
 4) Add the SSH key of your build-server sudo user to your wordpress-server's sudo user's authorized_keys. You can set this up by following this tutorial. You should run the tutorial from your build-server and upload the key to your wordpress-server
 
-" Things to done before installation"
+                                        " Things to done before installation"
 
 1) Edit hosts and update following
 
@@ -34,6 +34,7 @@ ansible_ssh_user=root
 
 ansible_python_interpreter=/usr/bin/python  
 
+
 2) Add mysql password, wordpress user, wordpress db name and wordpress password in 
 
 nano ~/ansible-wordpress/roles/mysql/defaults/main.yml
@@ -46,6 +47,7 @@ wp_db_user: wordpress
 wp_db_password: wordpress
 
 wp_db_name: wordpress
+
 
 3) again add wordpress user, wordpress db name and wordpress password in
 
