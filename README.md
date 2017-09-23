@@ -4,7 +4,7 @@ Introduction:
 
 Ansible is a simple, agentless way to automate your infrastructure. If you find yourself deploying WordPress over and over again, Ansible could save you a lot of time.
 
-With a few lines of YAML (a straighforward markup language), we will automate the typically tedious process of setting up WordPress on a fresh Ubuntu 14.04 server. We will install WordPress more or less according to the process outlined in this tutorial, but automatically.
+With a few lines of YAML (a straighforward markup language), we will automate the typically tedious process of setting up WordPress on a fresh Ubuntu 16.04 server. We will install WordPress more or less according to the process outlined in this tutorial, but automatically.
 
 We will use two servers: A build server running Ansible, and a target server on which we will install WordPress using Ansible.
 
@@ -12,7 +12,7 @@ Prerequisites:
 
 1) In order to complete this tutorial, you will need to have the following set up:
 
-2) A build server running Ubuntu 14.04. We will install Ansible on this server (referred to in this tutorial as the build-server). We will log into this server, and all the files and commands for this tutorial will be run on this server. A target server running Ubuntu 16.04. We will install WordPress (via Ansible) on this server (referred to in this tutorial as the wordpress-server)
+2) A build server running Ubuntu 16.04. We will install Ansible on this server (referred to in this tutorial as the build-server). We will log into this server, and all the files and commands for this tutorial will be run on this server. A target server running Ubuntu 16.04. We will install WordPress (via Ansible) on this server (referred to in this tutorial as the wordpress-server)
 
 3) Sudo non-root users configured for both servers
 
