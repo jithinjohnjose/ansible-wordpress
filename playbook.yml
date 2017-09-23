@@ -1,0 +1,7 @@
+- hosts: wordpress
+
+  roles:
+    - apache2
+    - php7
+    - mysql
+    - wordpress
