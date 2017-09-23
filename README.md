@@ -20,12 +20,18 @@ Prerequisites:
 
 " Things to done before installation"
 
-1) Edit hosts:
+1) Edit hosts and update following
 nano ~/ansible-wordpress/hosts
 
 [wordpress]
+
 wordpress_server_ip 
 
 [wordpress:vars]
+
 ansible_ssh_user=root
-ansible_python_interpreter=/usr/bin/python                
+
+ansible_python_interpreter=/usr/bin/python  
+
+2) Add mysql password, wordpress user, wordpress db name and wordpress password.
+nano ~/ansible-wordpress/roles/mysql/
