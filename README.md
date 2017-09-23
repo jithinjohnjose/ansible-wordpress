@@ -39,7 +39,6 @@ ansible_python_interpreter=/usr/bin/python
 nano ~/ansible-wordpress/roles/mysql/defaults/main.yml
 
 ---
-
 mysql_root_password: your mysql password
 
 wp_db_user: wordpress
@@ -48,3 +47,13 @@ wp_db_password: wordpress
 
 wp_db_name: wordpress
 
+3) again add wordpress user, wordpress db name and wordpress password in
+
+nano ~/ansible-wordpress/roles/wordpress/defaults/main.yml
+
+---
+wp_db_user: wordpress
+
+wp_db_password: wordpress
+
+wp_db_name: wordpress
